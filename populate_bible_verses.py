@@ -96,7 +96,7 @@ def main():
     writeToExcel(read_sheet, write_sheet)
 
     ## Saving the updated Excel workbook
-    xlwt_workbook.save("bible_memory_verses.xls")
+    xlwt_workbook.save("resources/bible_memory_verses.xls")
 
 
 #---------------------- EXECUTING THE MAIN FUNCTION -----------------------------#
