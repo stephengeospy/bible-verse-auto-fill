@@ -1,2 +1,5 @@
 bible-verse-auto-fill.cfg
 .DS_Store
+*_old.py
+*test*
+*.txt

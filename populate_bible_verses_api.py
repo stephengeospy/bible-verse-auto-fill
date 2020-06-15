@@ -38,7 +38,6 @@ def set_api_params(cfg_dict):
 
 
 def get_esv_text(reference, cfg_dict):
-    # cfg_dict['PARAMS']['q'] = reference
     cfg_dict['PARAMS'].update({'q': reference})
     response = requests.get(cfg_dict['API_URL'], params=cfg_dict['PARAMS'], headers=cfg_dict['HEADERS'])
     passages = response.json()['passages']
