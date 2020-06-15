@@ -1,6 +1,5 @@
 import re
 import requests
-import pandas as pd
 import configparser
 from os import makedirs, path, walk
 
